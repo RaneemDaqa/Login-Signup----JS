@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="login-form active">
+        <h2>Login</h2>
+        <div class="email">
+          <label for="Email">Email</label>
+          <input type="email" id="Login-Email" placeholder="Email" required />
+          
+        </div>
+
+        <div class="password">
+          <label for="Login-password">Password</label>
+          <input
+            type="password"
+            id="Login-password"
+            placeholder="Password"
+            required
+          />
+        </div>
+
+        <button type="submit" id="login">Login</button>
+        <span
+          >Don't Have An Account?<a href="#" class="signup-button">SignUP</a
+          ></span
+        >
+      </form>
+
+      <form class="signUp-form" >
+        <h2>SignUp</h2>
+        <div>
+          <label for="SignUp-First-Name">First Name</label>
+          <input
+            type="text"
+            id="SignUp-First-Name"
+            placeholder="First Name"
+            class="firstName"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="SignUp-Second-Name">Second Name</label>
+          <input
+            type="text"
+            id="SignUp-Second-Name"
+            placeholder="Second Name"
+            class="secondName"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="SignUp-Email">Email</label>
+          <input
+            type="email"
+            id="SignUp-Email"
+            placeholder="Email"
+            class="email"
+            required
+          />
+        </div>
+      
+        <div class="country">
+          <label for="SignUp-country">Choose a country:</label>
+          <select id="SignUp-country" name="country" class="country-select">
+            <option>Palestine</option>
+            <option>Jordan</option>
+          </select>
+        </div>
+      
+        <div>
+          <label for="SignUp-age">Age</label>
+          <input
+            type="text"
+            id="SignUp-age"
+            placeholder="Age"
+            class="age"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="SignUp-password">Password</label>
+          <input
+            type="password"
+            id="SignUp-password"
+            placeholder="Password"
+            class="password"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="SignUp-Confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="SignUp-Confirm-password"
+            placeholder="Confirm Password"
+            class="confirmPassword"
+            required
+          />
+        </div>
+        <button type="button" id="Cancel-text">Cancel</button>
+        <button type="button" id="save">Save</button>
+      </form>
+      
+
+      <form class="UpdateProfile-form">
+        <h2>Update Profile</h2>
+        <div>
+          <button type="button" id="Edit-text">Edit</button>
+        </div>
+
+        <div>
+          <label for="Update-First-Name">First Name</label>
+          <input
+            type="text"
+            id="Update-First-Name"
+            placeholder="First Name"
+            class="firstName"
+            disabled
+          />
+        </div>
+
+        <div>
+          <label for="Update-Second-Name">Second Name</label>
+          <input
+            type="text"
+            id="Update-Second-Name"
+            placeholder="Second Name"
+            class="secondName"
+            disabled
+          />
+        </div>
+
+        <div>
+          <label for="Update-Email">Email</label>
+          <input
+            type="email"
+            id="Update-Email"
+            placeholder="Email"
+            class="email"
+            disabled
+          />
+        </div>
+
+        <div class="country">
+          <label for="Update-country">Choose a country:</label>
+          <select
+            id="Update-country"
+            name="country"
+            class="country-select"
+            disabled
+          >
+            <option>Palestine</option>
+            <option>Jordan</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="Update-age">Age</label>
+          <input
+            type="text"
+            id="Update-age"
+            placeholder="Age"
+            class="age"
+            disabled
+          />
+        </div>
+
+        <div>
+          <label for="Update-password">Password</label>
+          <input
+            type="password"
+            id="Update-password"
+            placeholder="Password"
+            class="password"
+            disabled
+          />
+        </div>
+
+        <div>
+          <label for="Update-Confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="Update-Confirm-password"
+            placeholder="Confirm Password"
+            class="confirmPassword"
+            disabled
+          />
+        </div>
+        <button type="b" id="updateSubmit">Submit</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
